@@ -6,7 +6,7 @@ import os
 # -------------------------------
 model = YOLO("yolov8m.pt") # You can change to "yolov8n.pt" or any other variant
 
-# -------------------------------
+# -------------------------------####
 # 2. Train the Model
 # -------------------------------
 results = model.train(
@@ -33,5 +33,5 @@ print(f"📊 Validation complete.")
 print(f"mAP50: {metrics.box.map50:.4f}")
 print(f"mAP50-95: {metrics.box.map:.4f}")
 
-]
+
 
