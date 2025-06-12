@@ -4,7 +4,7 @@ import os
 # -------------------------------
 # 1. Load Pretrained Model
 # -------------------------------
-model = YOLO("yolov8m.pt") # You can change to "yolov8n.pt" or any other variant
+model = YOLO("yolov11m.pt") # You can change to "yolov8n.pt" or any other variant
 
 # -------------------------------####
 # 2. Train the Model
