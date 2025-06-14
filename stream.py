@@ -7,7 +7,7 @@ import os
 
 # Title
 st.title("🧠 Crack Detection using YOLOv8")
-st.write("Upload an image to detect cracks using a trained YOLOv8 model.")
+st.write("Upload an image to detect cracks using a trained YOLOv model.")
 
 # Upload image
 uploaded_file = st.file_uploader("Choose an image", type=["jpg", "jpeg", "png"])
