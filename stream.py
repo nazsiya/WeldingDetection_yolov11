@@ -6,7 +6,7 @@ import tempfile
 import os
 
 # Title
-st.title("🧠 Crack Detection using YOLOv8")
+st.title("🧠 Crack Detection using YOLOv11")
 st.write("Upload an image to detect cracks using a trained YOLOv model.")
 
 # Upload image
